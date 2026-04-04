@@ -63,31 +63,33 @@ Average Delivery Time
 Profit Margin
 
 🔍 Key Insights
-Heat Pumps generate the highest revenue despite lower sales volume, indicating strong pricing power
-Solar Panels drive the highest sales volume, making them the primary demand driver
-EV Chargers underperform across revenue and profit, suggesting potential demand or pricing issues
-Positive inventory gaps across products indicate overstocking and inefficiencies
-Supplier A is the most reliable in terms of delivery volume
-Supplier C shows the highest delivery delays, representing operational risk
-Overall profit margin remains strong, indicating healthy profitability
+* Heat Pumps generate the highest revenue despite lower sales volume, indicating strong pricing power
+* Solar Panels drive the highest sales volume, making them the primary demand driver
+* EV Chargers underperform across revenue and profit, suggesting potential demand or pricing issues
+* Positive inventory gaps across products indicate overstocking and inefficiencies
+* Supplier A is the most reliable in terms of delivery volume
+* Supplier C shows the highest delivery delays, representing operational risk
+* Overall profit margin remains strong, indicating healthy profitability
+
 💡 Business Recommendations
-Optimize inventory planning to reduce overstocking
-Improve supplier performance, especially for high-delay suppliers
-Focus on high-margin products to maximize profitability
-Investigate underperforming product categories
+* Optimize inventory planning to reduce overstocking
+* Improve supplier performance, especially for high-delay suppliers
+* Focus on high-margin products to maximize profitability
+* Investigate underperforming product categories
 
 📸 Dashboard Preview
 
-(Insert screenshot here)
+<img width="561" height="910" alt="Supply Chain   Demand" src="https://github.com/user-attachments/assets/a8fab5cb-be36-4e68-8959-a7d0d68f15ce" />
+
 
 🚀 Project Value
 
 This project demonstrates the ability to:
 
-Translate business problems into data analysis
-Build structured and insightful dashboards
-Analyze supply chain and operational performance
-Communicate insights clearly for decision-making
+* Translate business problems into data analysis
+* Build structured and insightful dashboards
+* Analyze supply chain and operational performance
+* Communicate insights clearly for decision-making
 
 📌 Note
 
