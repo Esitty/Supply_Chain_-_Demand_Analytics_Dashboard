@@ -1,4 +1,5 @@
 📊 Supply Chain & Demand Analytics Dashboard
+
 🧠 Project Overview
 
 This project focuses on analyzing product demand, inventory management, and supplier performance through an interactive dashboard built in Excel.
@@ -42,6 +43,7 @@ Pivot Tables
 Data Cleaning & Structuring
 Data Visualization (Charts & Dashboard Design)
 Business Analysis
+
 📊 Dashboard Features
 
 The dashboard provides a comprehensive view of operations through:
@@ -59,6 +61,7 @@ Total Revenue
 Total Units Sold
 Average Delivery Time
 Profit Margin
+
 🔍 Key Insights
 Heat Pumps generate the highest revenue despite lower sales volume, indicating strong pricing power
 Solar Panels drive the highest sales volume, making them the primary demand driver
@@ -72,6 +75,7 @@ Optimize inventory planning to reduce overstocking
 Improve supplier performance, especially for high-delay suppliers
 Focus on high-margin products to maximize profitability
 Investigate underperforming product categories
+
 📸 Dashboard Preview
 
 (Insert screenshot here)
@@ -84,6 +88,7 @@ Translate business problems into data analysis
 Build structured and insightful dashboards
 Analyze supply chain and operational performance
 Communicate insights clearly for decision-making
+
 📌 Note
 
 This is a simulated dataset designed to reflect real-world operational scenarios and support analytical problem-solving.
