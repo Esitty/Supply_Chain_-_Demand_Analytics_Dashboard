@@ -10,10 +10,10 @@ The goal is to simulate real-world operational challenges and provide insights i
 
 Companies managing product distribution often face challenges such as:
 
-Balancing demand vs supply
-Managing inventory levels efficiently
-Monitoring supplier performance
-Identifying delivery delays and operational risks
+* Balancing demand vs supply
+* Managing inventory levels efficiently
+* Monitoring supplier performance
+* Identifying delivery delays and operational risks
 
 This project addresses these challenges by providing a structured analysis of operational data to support better decision-making.
 
