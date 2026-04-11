@@ -1,6 +1,6 @@
 # Supply Chain & Demand Analytics Dashboard
 
-An Excel dashboard analyzing product demand, inventory management, and supplier performance across warehouse locations in Germany — built to identify supply chain inefficiencies and support operational decision-making.
+An Excel dashboard analyzing product demand, inventory management, and supplier performance across warehouse locations in Germany, built to identify supply chain inefficiencies and support operational decision-making.
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
 ![Pivot Tables](https://img.shields.io/badge/Pivot_Tables_%26_Charts-217346?style=flat)
