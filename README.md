@@ -17,7 +17,7 @@ Companies managing multi-product distribution across multiple warehouses routine
 - Which suppliers are reliable, and which are creating delivery risk?
 - Are our most profitable products the ones we are prioritising operationally?
 
-This project addresses those questions by building a unified dashboard that links product performance, inventory gaps, and supplier behaviour — enabling managers to make faster, evidence-based decisions across procurement, warehouse, and sales functions.
+This project addresses those questions by building a unified dashboard that links product performance, inventory gaps, and supplier behaviour enabling managers to make faster, evidence-based decisions across procurement, warehouse, and sales functions.
 
 ---
 
@@ -130,10 +130,10 @@ Added a dedicated insights box directly within the dashboard file — so any sta
 
 ## 💼 Transferable Skills Demonstrated
 
-- Supply chain analysis — demand planning, inventory control, and supplier evaluation applicable across manufacturing, retail, logistics, and energy sectors
+- Supply chain analysis - demand planning, inventory control, and supplier evaluation applicable across manufacturing, retail, logistics, and energy sectors
 - Structuring a multi-dimensional analysis (product + supplier + location) into a single coherent dashboard
 - Translating operational metrics into business language that non-technical stakeholders can act on
-- Identifying where operational inefficiency is creating financial cost — not just describing what the data shows
+- Identifying where operational inefficiency is creating financial cost not just describing what the data shows
 - Designing dashboards that serve multiple functions simultaneously: performance review, risk identification, and procurement planning
 
 ---
