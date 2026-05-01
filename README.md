@@ -50,10 +50,10 @@ Identified five core analytical questions before building any charts: product re
 Created a calculated field: Inventory Gap = Units Delivered − Units Sold. A positive gap indicates overstocking. Surfaced this per product to identify where excess inventory is accumulating and where it is most severe.
 
 **4 — Supplier performance analysis**
-Built two separate supplier views — total units delivered (volume reliability) and average delivery time (speed reliability) — because a supplier can be high-volume but slow, or fast but low-volume. Separating these surfaces nuance that a combined metric would hide.
+Built two separate supplier views, total units delivered (volume reliability) and average delivery time (speed reliability) because a supplier can be high-volume but slow, or fast but low-volume. Separating these surfaces nuance that a combined metric would hide.
 
 **5 — Slicer & filter design**
-Connected Product Type, Supplier, and Warehouse Location slicers to all charts simultaneously, allowing the dashboard to answer location-specific or supplier-specific questions without rebuilding any views.
+Connected Product Type, Supplier, and Warehouse Location slicers to all charts simultaneously, allowing the dashboard to answer location specific or supplier-specific questions without rebuilding any views.
 
 **6 — Insights & recommendations panel**
 Added a dedicated insights box directly within the dashboard file — so any stakeholder opening it immediately sees the key takeaways without needing to interpret the charts independently.
