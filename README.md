@@ -64,9 +64,9 @@ Added a dedicated insights box directly within the dashboard file — so any sta
 
 ### Product Performance
 
-- **Heat Pumps generate the highest revenue (€420K) despite lower sales volume than Solar Panels.** This is a premium pricing advantage — the business earns more per unit from Heat Pumps than any other product. A Heat Pump stockout costs more revenue per lost sale than any other category, making availability a priority.
+- **Heat Pumps generate the highest revenue (€420K) despite lower sales volume than Solar Panels.** This is a premium pricing advantage, the business earns more per unit from Heat Pumps than any other product. A Heat Pump stockout costs more revenue per lost sale than any other category, making availability a priority.
 
-- **Solar Panels record the highest sales volume (990 units)**, making them the primary demand driver. High volume at lower unit revenue means margin management is critical — small cost increases per unit have a large aggregate effect at this scale.
+- **Solar Panels record the highest sales volume (990 units)**, making them the primary demand driver. High volume at lower unit revenue means margin management is critical, small cost increases per unit have a large aggregate effect at this scale.
 
 - **EV Chargers underperform across all key metrics** — lowest revenue (€230K) and lowest profit (€86K). Before concluding this is a demand problem, pricing relative to the market and warehouse stocking locations should be examined.
 
