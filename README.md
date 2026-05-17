@@ -41,7 +41,7 @@ This project addresses those questions by building a unified dashboard that link
 
 ---
 
-## 🔵 Power BI Dashboard (2025 Upgrade)
+## 🔵 Power BI Dashboard 
 
 The original Excel dashboard was rebuilt in Microsoft Power BI to demonstrate cross-platform BI skills and add interactivity not possible in Excel.
 
@@ -54,6 +54,10 @@ The original Excel dashboard was rebuilt in Microsoft Power BI to demonstrate cr
 - Data modeling and transformation via Power Query
 
 **Tools used:** Power BI Web, Power Query, DAX
+
+## 📸 Power BI Dashboard Preview
+
+![Power BI Dashboard](Power_BI_Dashboard.png)
 
 📥 Download the Power BI file: `Supply Chain & Demand Analytics.pbix`
 
