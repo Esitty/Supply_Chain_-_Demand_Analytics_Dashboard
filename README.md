@@ -1,9 +1,11 @@
 # Supply Chain & Demand Analytics Dashboard
 
-An Excel dashboard analyzing product demand, inventory management, and supplier performance across warehouse locations in Germany, built to identify supply chain inefficiencies and support operational decision-making.
+An Excel and Power BI dashboard analyzing product demand, inventory management, and supplier performance across warehouse locations in Germany, built to identify supply chain inefficiencies and support operational decision-making.
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Pivot Tables](https://img.shields.io/badge/Pivot_Tables_%26_Charts-217346?style=flat)
+![DAX](https://img.shields.io/badge/DAX_Measures-F2C811?style=flat)
 ![Supply Chain](https://img.shields.io/badge/Supply_Chain_Analytics-7B2D8B?style=flat)
 
 ---
@@ -29,12 +31,31 @@ This project addresses those questions by building a unified dashboard that link
 | Total Units Sold | 2,970 |
 | Average Delivery Time | 6.1 days |
 | Overall Profit Margin | 31.57% |
+| Fill Rate | 86% |
 
 ---
 
-📸 Dashboard Preview
+## 📸 Excel Dashboard Preview
 
 <img width="561" height="910" alt="Supply Chain   Demand" src="https://github.com/user-attachments/assets/a8fab5cb-be36-4e68-8959-a7d0d68f15ce" />
+
+---
+
+## 🔵 Power BI Dashboard (2025 Upgrade)
+
+The original Excel dashboard was rebuilt in Microsoft Power BI to demonstrate cross-platform BI skills and add interactivity not possible in Excel.
+
+**What was added:**
+- Live interactive dashboard with cross-filtering across all 8 charts simultaneously
+- DAX measures: Fill Rate, Profit Margin %, Revenue per Unit, Supplier Risk Score
+- Geographic map showing profit distribution across Germany warehouse locations
+- 3 dropdown slicers filtering all visuals simultaneously by Product Type, Supplier, and Warehouse Location
+- Business Report page with written insights and strategic recommendations
+- Data modeling and transformation via Power Query
+
+**Tools used:** Power BI Web, Power Query, DAX
+
+📥 Download the Power BI file: `Supply Chain & Demand Analytics.pbix`
 
 ---
 
@@ -53,10 +74,13 @@ Created a calculated field: Inventory Gap = Units Delivered − Units Sold. A po
 Built two separate supplier views, total units delivered (volume reliability) and average delivery time (speed reliability) because a supplier can be high-volume but slow, or fast but low-volume. Separating these surfaces nuance that a combined metric would hide.
 
 **5 — Slicer & filter design**
-Connected Product Type, Supplier, and Warehouse Location slicers to all charts simultaneously, allowing the dashboard to answer location specific or supplier-specific questions without rebuilding any views.
+Connected Product Type, Supplier, and Warehouse Location slicers to all charts simultaneously, allowing the dashboard to answer location-specific or supplier-specific questions without rebuilding any views.
 
 **6 — Insights & recommendations panel**
 Added a dedicated insights box directly within the dashboard file — so any stakeholder opening it immediately sees the key takeaways without needing to interpret the charts independently.
+
+**7 — Power BI rebuild & DAX modeling**
+Rebuilt the entire dashboard in Power BI Web, created DAX measures for Fill Rate, Profit Margin %, Revenue per Unit, and Supplier Risk Score. Added a second Business Report page combining live KPI cards with written analysis and strategic recommendations.
 
 ---
 
@@ -74,11 +98,18 @@ Added a dedicated insights box directly within the dashboard file — so any sta
 
 - **All four product categories show positive inventory gaps** — more units are delivered than sold across the board. This is consistent overstocking, not a one-off. Solar Panels (gap of 155 units) and Batteries (141 units) carry the largest excess. Overstocking ties up working capital and increases warehousing costs; a review of order quantities against actual sales velocity is recommended.
 
+- **Overall fill rate of 86%** means 14% of delivered stock is not being sold — directly linked to the overstocking pattern identified across all product categories.
+
 ### Supplier Performance
 
 - **Supplier A delivers the highest volume (1,396 units) and fastest average delivery time (3.5 days)** — the strongest overall supplier by both measures. Should be prioritised in procurement negotiations.
 
 - **Supplier C averages 8.7 days delivery time — more than double Supplier A.** At a 6.1-day company average, Supplier C is pulling the mean up significantly. For time-sensitive products like Heat Pumps, reliance on Supplier C creates material delivery risk. Contracts and alternative sourcing should be reviewed.
+
+### Warehouse Performance
+
+- **Hamburg leads profitability** across all 5 warehouse locations, followed closely by Berlin. Both cities should be prioritised for high-margin product allocation.
+- **Cologne has the lowest profit contribution** — lower demand, higher costs, or suboptimal product mix at that location should be investigated.
 
 ---
 
@@ -91,8 +122,11 @@ Added a dedicated insights box directly within the dashboard file — so any sta
 | Inventory gap by product | Where is overstocking concentrated? |
 | Units delivered by supplier | Which supplier handles the most volume? |
 | Average delivery time by supplier | Which supplier is creating delivery risk? |
+| Profit by warehouse location | Which locations are most profitable? |
+| Revenue vs cost by product | Where is the margin gap largest? |
+| Inventory level trend | Is stock declining or growing over time? |
 | KPI summary cards | What is the overall health of the operation at a glance? |
-| Insights & recommendations panel | What should a decision-maker act on immediately? |
+| Business Report page | What should a decision-maker act on immediately? |
 
 ---
 
@@ -107,6 +141,9 @@ Added a dedicated insights box directly within the dashboard file — so any sta
 | Calculated Fields | Inventory gap (units delivered − units sold), profit margin (profit ÷ revenue), average delivery time per supplier |
 | KPI Cards | Summary metrics designed for executive-level readability at the top of the dashboard |
 | Dashboard Insights Panel | Embedded recommendations box surfacing key findings directly within the dashboard file |
+| Power BI Web | Rebuilt the Excel dashboard as a fully interactive 2-page report with cross-filtering |
+| Power Query | Data transformation, column type validation, and calculated column creation |
+| DAX Measures | Fill Rate, Profit Margin %, Revenue per Unit, Supplier Risk Score |
 
 ---
 
@@ -130,10 +167,12 @@ Added a dedicated insights box directly within the dashboard file — so any sta
 
 ## 💼 Transferable Skills Demonstrated
 
-- Supply chain analysis - demand planning, inventory control, and supplier evaluation applicable across manufacturing, retail, logistics, and energy sectors
+- Supply chain analysis — demand planning, inventory control, and supplier evaluation applicable across manufacturing, retail, logistics, and energy sectors
+- Rebuilding the same analytical product across two different BI tools (Excel and Power BI) demonstrating tool-agnostic thinking
 - Structuring a multi-dimensional analysis (product + supplier + location) into a single coherent dashboard
 - Translating operational metrics into business language that non-technical stakeholders can act on
 - Identifying where operational inefficiency is creating financial cost not just describing what the data shows
+- Writing DAX measures to surface KPIs that go beyond raw aggregations
 - Designing dashboards that serve multiple functions simultaneously: performance review, risk identification, and procurement planning
 
 ---
